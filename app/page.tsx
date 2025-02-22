@@ -2,7 +2,7 @@ import ECommerce from "@/components/Dashboard/E-commerce";
 import { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "YahyaAdmin | Next.js E-commerce Dashboard Template",
+  title: "YahyaAdmin | Next.js Dashboard ",
   description: "This is Home Blog page for TailAdmin Next.js",
 };
 
