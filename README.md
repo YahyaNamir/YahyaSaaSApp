@@ -1,75 +1,114 @@
-# YahyaAdmin Next.js - Free Next.js Tailwind Admin Dashboard Template
+Here's an updated `README.md` template for a Next.js application as of 2025:
 
-YahyaAdmin is a free and open-source admin dashboard template built on **Next.js and Tailwind CSS** providing developers with everything they need to create a feature-rich and data-driven: back-end, dashboard, or admin panel solution for any sort of web project.
+```markdown
+# Next.js Application
 
-With YahyaAdmin Next.js, you get access to all the necessary dashboard UI components, elements, and pages required to build a high-quality and complete dashboard or admin panel. Whether you're building a dashboard or admin panel for a complex web application or a simple website.
+This is a Next.js application, a powerful React framework that provides an optimized developer experience and fast performance.
 
-YahyaAdmin utilizes the powerful features of **Next.js 14** and common features of Next.js such as server-side rendering (SSR), static site generation (SSG), and seamless API route integration. Combined with the advancements of **React 18** and the robustness of **TypeScript**, YahyaAdmin is the perfect solution to help get your project up and running quickly.
+## Getting Started
 
-nique Dashboards: Analytics, Ecommerce, Marketing, and CRM (More will be added)
+To get started with the project locally, follow the steps below.
 
-- 120+ Dashboard UI Components
-- 200+ Total UI Elements
-- 45+ HTML Files
-- All Essential Elements and Files
-- Full Figma Design Source - As Shown on Demo
+### Prerequisites
 
----
+Ensure that you have the following installed:
+- [Node.js](https://nodejs.org/) (>= 16.8)
+- [npm](https://www.npmjs.com/) (comes with Node.js) or [Yarn](https://yarnpkg.com/) (optional)
 
-- 1 Unique Dashboard
-- 30+ Dashboard UI Components
-- 50+ Total UI Elements
-- 10+ HTML Files
-- TypeScript Support
-- Basic UI Kit Elements and Files
-- Figma Design Source - Free Sample
+### Installation
 
----
+1. Clone the repository:
 
-## Installation
-
-Here are the steps you need to follow to install the dependencies.
-
-1. Download and extract the template from Next.js Templates.
-
-2. After that **cd** into the template directory then run this command to install all the dependencies
-
+```bash
+git clone https://github.com/your-username/next-app.git
 ```
+
+2. Navigate to the project directory:
+
+```bash
+cd next-app
+```
+
+3. Install dependencies:
+
+Using npm:
+```bash
 npm install
 ```
 
-or
-
-```
+Using Yarn:
+```bash
 yarn install
 ```
 
-3. Now run this command to start the developement server
+### Development
 
-```
+To run the application in development mode:
+
+```bash
 npm run dev
 ```
-
-or
-
-```
+or if you're using Yarn:
+```bash
 yarn dev
 ```
 
-## Free Admin Dashboard Template for Next.js Built-with Tailwind CSS, React 18 and TypeScript
+This will start the development server at `http://localhost:3000`.
 
-YahyaAdmin Next.js is a free dashboard template, which uses Tailwind CSS, is a great starting point for dashboard UI. This template uses the Next.js JavaScript framework and the easy-to-use Tailwind CSS framework. The Tailwind CSS and Next.js Dashboard Template comes with ready-made components like navigation menus, charts, tables, and forms. These components can be easily adjusted and added to any Next.js web application.
+### Production
 
-YahyaAdmin for Next.js provides all essential Next.js + Tailwind CSS UI components that can be copied and pasted directly into your dashboard projects. The range of components includes charts, graphs, navbars, tabs, buttons, cards, tables, profiles, forms, modals, app pages, calendars, web app example templates, and more, all coded for Next.js React and styled using Tailwind CSS.
+To build and start the application for production:
 
-If you're on the hunt for a top-quality Next.js-Tailwind Dashboard, Admin Panel Template, or UI Kit, YahyaAdmin is the perfect choice for you!
+1. Build the project:
 
-### 📄 License
+```bash
+npm run build
+```
+or with Yarn:
+```bash
+yarn build
+```
 
-YahyaAdmin Next.js Free is 100% free and open-source; feel free to use it with your personal and commercial projects.
+2. Start the production server:
 
-### 💜 Support
+```bash
+npm start
+```
+or with Yarn:
+```bash
+yarn start
+```
 
-If you like the template, please star this repository to inspire the team to create more stuff like this and reach more users like you!
-### Book a Call
-If you're interented working with me, Let's have a call.
+The production build will now be running on `http://localhost:3000`.
+
+### Scripts
+
+- `npm run dev` or `yarn dev`: Starts the app in development mode.
+- `npm run build` or `yarn build`: Builds the app for production.
+- `npm start` or `yarn start`: Starts the production server.
+
+## Features
+
+- **Optimized Performance**: Automatic static optimization and server-side rendering for fast page loads.
+- **API Routes**: Create API endpoints within the application using the `pages/api` directory.
+- **File-Based Routing**: Pages are automatically routed based on the `pages` directory.
+- **Image Optimization**: Built-in support for optimized images, improving performance and load times.
+- **Incremental Static Regeneration (ISR)**: Regenerate static pages without rebuilding the entire site.
+- **TypeScript Support**: Easily integrate TypeScript for better type safety.
+
+## Learn More
+
+To learn more about Next.js, check out the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs)
+- [Next.js GitHub Repository](https://github.com/vercel/next.js)
+- [Vercel](https://vercel.com)
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+```
+
+### What's New in 2025?
+- **Improved developer experience**: Next.js continues to evolve with better integrations, optimized image handling, and further advancements in Incremental Static Regeneration (ISR).
+- **Edge Functions**: New options to run your application on the edge, improving latency and scalability.
